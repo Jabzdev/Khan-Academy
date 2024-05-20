@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+header {
+  padding: 15px;
+  font-size: 33px;
+  font-weight: bold;
+  color: rgb(0, 68, 171);
+  width: 100%;
+  float: left;
+  border-bottom: 1px solid rgb(40, 167, 222);
+}
+header div{
+  height: 100%;
+  width: 45%;
+  float: left;
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+header .image-div {
+  float: left;
+  width: 10%;
+  height: 100%;
+}
+
+input {
+  height: 30px;
+}
+
+/*========MID SECTION========*/
